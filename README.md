@@ -15,7 +15,7 @@ emergency_contact = ("Grandma", "Corretta Dogan", "864-201-5700")
 Home_address = ("104 Abba Way", "Taylors", "SC", "29611")
 
 Instagram_info = ("Instagram", "@just.do_u", 178)
-TikTok_info = ("TikTok", "@ryxlyentitled", 286)
+Twitter_info = ("Twitter", "N/A", 0)
 Birthday_tuple = ("Birthday", "10", "10", "2007")
 Current_skills = {"JavaScript", "3D Modeling", "Problem solving", "Robot Operation", "Python basics"}
 Skills_to_learn = {'Data structures', 'Web design', 'Time management', 'Git', 'Spanish'}
@@ -109,7 +109,7 @@ print()
 print(f"=== CONNECTIONS & CONTACTS ===")
 print(f"Emergency Contact: {emergency_contact[1]} ({emergency_contact[0]}) - {emergency_contact[2]}")
 print(f"Home Address: {Home_address[0]}, {Home_address[1]}, {Home_address[2]} {Home_address[3]}")
-print(f"Social Media Presence: {Instagram_info[2] + TikTok_info[2]} followers across 2 platforms")
+print(f"Social Media Presence: {Instagram_info[2] + Twitter_info[2]} followers across 2 platforms")
 print(f"Key Contacts: {len(Contact_directory)} people in directory")
 print()
 print(f"=== LIFE STATISTICS ===")
